@@ -1,4 +1,5 @@
 terraform {
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -12,10 +13,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "Ajay-Org1"
 
     workspaces {
-      name = "REPLACE_ME"
+      name = "demo1"
     }
   }
 }
